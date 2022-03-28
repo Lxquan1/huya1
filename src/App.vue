@@ -84,6 +84,8 @@
   overflow: hidden;
   overflow-x: scroll;
 }
-
+.dk::-webkit-scrollbar {
+  display: none; /* Chrome Safari */
+}
 
 </style>
