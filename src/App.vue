@@ -6,17 +6,17 @@
     </div>
     <div class="dk">
       <div class="nav-links">
-        <router-link to="/"><span>首页</span></router-link>
-        <router-link to="/wangzhe"><span>王者荣耀</span></router-link>
-        <router-link to="/juedi"><span>绝地求生</span></router-link>
-        <router-link to="/YingXiong"><span>英雄联盟</span></router-link>
-        <router-link to="/xingxiu"><span>星秀</span></router-link>
-        <router-link to="/chhe"><span>吃喝玩乐</span></router-link>
-        <router-link to="/youxi"><span>主机游戏</span></router-link>
-        <router-link to="/3203:id"><span>和平精英</span></router-link>
-        <router-link to="/3204:id"><span>穿越火线</span></router-link>
-        <router-link to="/appearance"><span>颜值</span></router-link>
-        <router-link to="/quadraticElement"><span>二次元</span></router-link>
+        <router-link active-class="active" to="/"><span>首页</span></router-link>
+        <router-link active-class="active" to="/wangzhe"><span>王者荣耀</span></router-link>
+        <router-link active-class="active" to="/juedi"><span>绝地求生</span></router-link>
+        <router-link active-class="active" to="/YingXiong"><span>英雄联盟</span></router-link>
+        <router-link active-class="active" to="/xingxiu"><span>星秀</span></router-link>
+        <router-link active-class="active" to="/chhe"><span>吃喝玩乐</span></router-link>
+        <router-link active-class="active" to="/youxi"><span>主机游戏</span></router-link>
+        <router-link active-class="active" to="/3203:id"><span>和平精英</span></router-link>
+        <router-link active-class="active" to="/3204:id"><span>穿越火线</span></router-link>
+        <router-link active-class="active" to="/appearance"><span>颜值</span></router-link>
+        <router-link active-class="active" to="/quadraticElement"><span>二次元</span></router-link>
       </div>
     </div>
     <router-view/>
@@ -28,6 +28,9 @@
   padding: 0;
   margin: 0;
   font-size: 16px;
+}
+.active{
+  color:red;
 }
 .app {
   width: 100%;
