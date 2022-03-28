@@ -6,20 +6,32 @@
     </div>
     <div class="dk">
       <div class="nav-links">
-        <router-link active-class="active" to="/"><span>首页</span></router-link>
-        <router-link active-class="active" to="/wangzhe"><span>王者荣耀</span></router-link>
+        <router-link active-class="active" to="/home"><span>首页</span></router-link>
+        <router-link active-class="active" to="/wangzhe"
+          ><span>王者荣耀</span></router-link
+        >
         <router-link active-class="active" to="/juedi"><span>绝地求生</span></router-link>
-        <router-link active-class="active" to="/YingXiong"><span>英雄联盟</span></router-link>
+        <router-link active-class="active" to="/YingXiong"
+          ><span>英雄联盟</span></router-link
+        >
         <router-link active-class="active" to="/xingxiu"><span>星秀</span></router-link>
         <router-link active-class="active" to="/chhe"><span>吃喝玩乐</span></router-link>
         <router-link active-class="active" to="/youxi"><span>主机游戏</span></router-link>
-        <router-link active-class="active" to="/3203:id"><span>和平精英</span></router-link>
-        <router-link active-class="active" to="/3204:id"><span>穿越火线</span></router-link>
-        <router-link active-class="active" to="/appearance"><span>颜值</span></router-link>
-        <router-link active-class="active" to="/quadraticElement"><span>二次元</span></router-link>
+        <router-link active-class="active" to="/3203:id"
+          ><span>和平精英</span></router-link
+        >
+        <router-link active-class="active" to="/3204:id"
+          ><span>穿越火线</span></router-link
+        >
+        <router-link active-class="active" to="/appearance"
+          ><span>颜值</span></router-link
+        >
+        <router-link active-class="active" to="/quadraticElement"
+          ><span>二次元</span></router-link
+        >
       </div>
     </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
@@ -29,12 +41,12 @@
   margin: 0;
   font-size: 16px;
 }
+.app {
+  width: 100%;
+}
 .nav-links a.active {
   color: #ffa200;
   border-bottom: 2px solid;
-}
-.app {
-  width: 100%;
 }
 .top {
   width: 100%;
@@ -69,6 +81,7 @@
   /* white-space: nowrap; */
   /* display: flex; */
   height: 0.5rem;
+  /* scrollbar-width: none;  */
 }
 .nav-links a {
   float: left;
@@ -87,9 +100,10 @@
   width: 100%;
   overflow: hidden;
   overflow-x: scroll;
+  /* scrollbar-width: none; */
 }
 .dk::-webkit-scrollbar {
   display: none; /* Chrome Safari */
 }
-
 </style>
+
