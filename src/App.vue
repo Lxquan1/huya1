@@ -29,8 +29,9 @@
   margin: 0;
   font-size: 16px;
 }
-.active{
-  color:red;
+.nav-links a.active {
+  color: #ffa200;
+  border-bottom: 2px solid;
 }
 .app {
   width: 100%;
